@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pilih Tempat Nongkrong</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+  <div class="w-full max-w-md bg-white shadow-lg rounded-2xl p-6">
+    <h1 class="text-xl font-bold mb-4 text-center">Pilih Tempat Nongkrong ✨</h1>
+    
+    <!-- Tempat 1 -->
+    <div class="mb-6 p-4 border rounded-lg shadow-sm">
+      <h2 class="font-semibold text-lg mb-2">Saat Seduh Jembatan Merah</h2>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.021194083904!2d112.73496090958592!3d-7.23842129273768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f99e8fdd17e1%3A0x4c5f120740af2434!2sSaat%20Seduh%20Coffee%20Jembatan%20Merah!5e0!3m2!1sen!2sid!4v1755838512542!5m2!1sen!2sid"
+        width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <button 
+        onclick="pilihTempat('Saat Seduh Jembatan Merah')" 
+        class="mt-3 w-full bg-green-500 hover:bg-green-600 text-white py-2 rounded-xl">
+        Pilih Ini
+      </button>
+    </div>
+
+    <!-- Tempat 2 -->
+    <div class="mb-6 p-4 border rounded-lg shadow-sm">
+      <h2 class="font-semibold text-lg mb-2">Fifteenth Coffee Kota Lama</h2>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.032202704724!2d112.73410510958576!3d-7.237166492738908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f9b3993beaf9%3A0xbea16fad9924d02a!2sFifteenth%20Coffee%20Kota%20Lama!5e0!3m2!1sen!2sid!4v1755838705300!5m2!1sen!2sid" 
+        width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <button 
+        onclick="pilihTempat('Fifteenth Coffee Kota Lama')" 
+        class="mt-3 w-full bg-green-500 hover:bg-green-600 text-white py-2 rounded-xl">
+        Pilih Ini
+      </button>
+    </div>
+
+    <!-- Tempat 3 -->
+    <div class="mb-6 p-4 border rounded-lg shadow-sm">
+      <h2 class="font-semibold text-lg mb-2">Kedai TINTIN</h2>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.943474446871!2d112.73446070958592!3d-7.247273892728989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f90041aea89f%3A0x299e9751ba7d901d!2sKedai%20TINTIN!5e0!3m2!1sen!2sid!4v1755838932935!5m2!1sen!2sid" 
+        width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <button 
+        onclick="pilihTempat('Kedai TINTIN')" 
+        class="mt-3 w-full bg-green-500 hover:bg-green-600 text-white py-2 rounded-xl">
+        Pilih Ini
+      </button>
+    </div>
+    
+    <!-- Tempat 4 -->
+    <div class="mb-6 p-4 border rounded-lg shadow-sm">
+      <h2 class="font-semibold text-lg mb-2">Paper Cup Coffee Tunjungan</h2>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.8251504169166!2d112.73685970958611!3d-7.260730892715771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f96f34a380db%3A0x69e18e46a092e73f!2sPAPER%20CUP%20COFFEE%20-%20Tunjungan!5e0!3m2!1sen!2sid!4v1755839050955!5m2!1sen!2sid" 
+        width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <button 
+        onclick="pilihTempat('Paper Cup Coffee')" 
+        class="mt-3 w-full bg-green-500 hover:bg-green-600 text-white py-2 rounded-xl">
+        Pilih Ini
+      </button>
+    </div>
+    
+    <!-- Tempat 5 -->
+    <div class="mb-6 p-4 border rounded-lg shadow-sm">
+      <h2 class="font-semibold text-lg mb-2">SCRT Ngagel</h2>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.5492767367373!2d112.74930270958652!3d-7.292010092685087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb0001a7eb39%3A0x9242fa8e12a3496f!2sScrt%20by%20Fifteenth!5e0!3m2!1sen!2sid!4v1755839182698!5m2!1sen!2sid" 
+        width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <button 
+        onclick="pilihTempat('SCRT Ngagel')" 
+        class="mt-3 w-full bg-green-500 hover:bg-green-600 text-white py-2 rounded-xl">
+        Pilih Ini
+      </button>
+    </div>
+    
+    <!-- Tempat 6 -->
+    <div class="mb-6 p-4 border rounded-lg shadow-sm">
+      <h2 class="font-semibold text-lg mb-2">AREK Coffee Genteng</h2>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1755.9804625986249!2d112.73675364407234!3d-7.2573471947697135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f9feb5cc4c33%3A0xc9a47c349a4d2373!2sAREK%20Coffee%20%26%20Eatery!5e0!3m2!1sen!2sid!4v1755839366737!5m2!1sen!2sid" 
+        width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <button 
+        onclick="pilihTempat('AREK Coffee Genteng')" 
+        class="mt-3 w-full bg-green-500 hover:bg-green-600 text-white py-2 rounded-xl">
+        Pilih Ini
+      </button>
+    </div>
+    
+    <!-- Tempat 7 -->
+    <div class="mb-6 p-4 border rounded-lg shadow-sm">
+      <h2 class="font-semibold text-lg mb-2">Calf Bambu Runcing</h2>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1755.9804625986249!2d112.73675364407234!3d-7.2573471947697135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb34c2ca4047%3A0x1434efb9ce6345e0!2sKopi%20Calf%20Signature%20Tunjungan%20Surabaya!5e0!3m2!1sen!2sid!4v1755839453913!5m2!1sen!2sid" 
+        width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <button 
+        onclick="pilihTempat('Calf Bambu Runcing')" 
+        class="mt-3 w-full bg-green-500 hover:bg-green-600 text-white py-2 rounded-xl">
+        Pilih Ini
+      </button>
+    </div>
+    
+    <!-- Tempat 8 -->
+    <div class="mb-6 p-4 border rounded-lg shadow-sm">
+      <h2 class="font-semibold text-lg mb-2">Kogu Space Klampis</h2>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1755.9804625986249!2d112.73675364407234!3d-7.2573471947697135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbc0ded0df6f%3A0xff47c63e1ac6218d!2sKogu%20Space!5e0!3m2!1sen!2sid!4v1755839625620!5m2!1sen!2sid" 
+        width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <button 
+        onclick="pilihTempat('Kogu Space Klampis')" 
+        class="mt-3 w-full bg-green-500 hover:bg-green-600 text-white py-2 rounded-xl">
+        Pilih Ini
+      </button>
+    </div>
+    
+  </div>
+
+  <script>
+    function pilihTempat(nama) {
+      // Ganti nomor WA kamu
+      let nomorWA = "6282131980299";
+      let pesan = `Hyy, aku pilih ${nama} buat nongkrong 😊`;
+      let url = `https://wa.me/${nomorWA}?text=${encodeURIComponent(pesan)}`;
+      window.location.href = url;
+    }
+  </script>
+  <footer class="fixed bottom-0 left-0 w-full bg-gray-200 text-center text-sm text-gray-600 py-3 shadow-inner">
+  © 2025 Dibuat dengan ❤️ by Nathanael
+</footer>
+</body>
+</html>
